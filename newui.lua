@@ -8,11 +8,38 @@ library.theme = library.Theme
 
 local Themes = {
     ["Cyberpunk"] = {
-        -- Main UI Elements
-        MainFrame = Color3.fromRGB(18, 18, 18), -- Almost Black
-        TopBar = Color3.fromRGB(22, 22, 22), -- Dark Gray
-        TextColor = Color3.fromRGB(230, 230, 230), -- Light Gray
-        Menu = Color3.fromRGB(20, 20, 20), -- Dark Gray
+        Topbar = Color3.fromRGB(22, 22, 22),
+        TabContainer = Color3.fromRGB(18, 18, 18),
+        Lines = Color3.fromRGB(40, 180, 99), -- Neon Green
+        HoverTabFrame = Color3.fromRGB(25, 25, 25),
+        ItemUIStroke = Color3.fromRGB(40, 180, 99), -- Neon Green
+        TabFrame = Color3.fromRGB(22, 22, 22),
+        SectionFrame = Color3.fromRGB(18, 18, 18),
+        TabText = Color3.fromRGB(240, 240, 240),
+        ItemText = Color3.fromRGB(240, 240, 240),
+        ItemUIStrokeSelected = Color3.fromRGB(46, 204, 113), -- Lighter Green
+        DropdownIcon = Color3.fromRGB(40, 180, 99), -- Neon Green
+        SectionText = Color3.fromRGB(40, 180, 99), -- Neon Green
+        SelectedTabFrame = Color3.fromRGB(40, 180, 99), -- Neon Green
+        ItemFrame = Color3.fromRGB(22, 22, 22),
+        HoverItemFrame = Color3.fromRGB(25, 25, 25),
+        SectionUIStroke = Color3.fromRGB(40, 180, 99), -- Neon Green
+        MainUIStroke = Color3.fromRGB(40, 180, 99), -- Neon Green
+        Main = Color3.fromRGB(18, 18, 18),
+        Shadow = Color3.fromRGB(15, 15, 15),
+        TabUIStroke = Color3.fromRGB(40, 180, 99), -- Neon Green
+        SliderOuter = Color3.fromRGB(25, 25, 25),
+        SliderInner = Color3.fromRGB(40, 180, 99), -- Neon Green
+        ToggleOuter = Color3.fromRGB(22, 22, 22),
+        InputPlaceHolder = Color3.fromRGB(40, 180, 99), -- Neon Green
+        ToggleOuterEnabled = Color3.fromRGB(25, 25, 25),
+        ToggleOuterUIStroke = Color3.fromRGB(40, 180, 99), -- Neon Green
+        ToggleOuterUIStrokeEnabled = Color3.fromRGB(46, 204, 113), -- Lighter Green
+        ToggleInner = Color3.fromRGB(40, 180, 99), -- Neon Green
+        ToggleInnerEnabled = Color3.fromRGB(46, 204, 113), -- Lighter Green
+        ContainerHolder = Color3.fromRGB(18, 18, 18),
+        HighlightUIStroke = Color3.fromRGB(40, 180, 99), -- Neon Green
+        Highlight = Color3.fromRGB(46, 204, 113) -- Lighter Green
         
         -- Tabs and Sections
         TabsContainer = Color3.fromRGB(20, 20, 20),
