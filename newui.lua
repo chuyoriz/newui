@@ -9,51 +9,51 @@ library.theme = library.Theme
 local Themes = {
     ["Cyberpunk"] = {
         -- Main UI Elements
-        MainFrame = Color3.fromRGB(10, 12, 18), -- Dark Navy Base
-        TopBar = Color3.fromRGB(15, 18, 26), -- Lighter Navy
-        TextColor = Color3.fromRGB(0, 255, 255), -- Neon Cyan Text
-        Menu = Color3.fromRGB(20, 24, 34), -- Slightly Lighter Navy
+        MainFrame = Color3.fromRGB(18, 18, 18), -- Almost Black
+        TopBar = Color3.fromRGB(22, 22, 22), -- Dark Gray
+        TextColor = Color3.fromRGB(230, 230, 230), -- Light Gray
+        Menu = Color3.fromRGB(20, 20, 20), -- Dark Gray
         
         -- Tabs and Sections
-        TabsContainer = Color3.fromRGB(15, 18, 26),
-        TabFrame = Color3.fromRGB(20, 24, 34),
-        SectionFrame = Color3.fromRGB(12, 15, 21),
+        TabsContainer = Color3.fromRGB(20, 20, 20),
+        TabFrame = Color3.fromRGB(22, 22, 22),
+        SectionFrame = Color3.fromRGB(18, 18, 18),
         
         -- Interactive Elements
-        Button = Color3.fromRGB(20, 24, 34),
-        ButtonHover = Color3.fromRGB(0, 255, 255), -- Cyan Glow
-        Toggle = Color3.fromRGB(20, 24, 34),
-        ToggleFrame = Color3.fromRGB(12, 15, 21),
-        ToggleToggled = Color3.fromRGB(0, 255, 166), -- Neon Green
+        Button = Color3.fromRGB(22, 22, 22),
+        ButtonHover = Color3.fromRGB(40, 180, 99), -- Soft Green
+        Toggle = Color3.fromRGB(22, 22, 22),
+        ToggleFrame = Color3.fromRGB(18, 18, 18),
+        ToggleToggled = Color3.fromRGB(40, 180, 99), -- Soft Green
         
         -- Sliders and Progress
-        Slider = Color3.fromRGB(20, 24, 34),
-        SliderBar = Color3.fromRGB(0, 255, 255), -- Cyan
-        SliderInc = Color3.fromRGB(255, 0, 128), -- Neon Pink
+        Slider = Color3.fromRGB(22, 22, 22),
+        SliderBar = Color3.fromRGB(40, 180, 99), -- Soft Green
+        SliderInc = Color3.fromRGB(46, 204, 113), -- Lighter Green
         
         -- Dropdowns and Inputs
-        Dropdown = Color3.fromRGB(20, 24, 34),
-        DropdownItem = Color3.fromRGB(12, 15, 21),
-        Textbox = Color3.fromRGB(20, 24, 34),
-        TextboxFrame = Color3.fromRGB(12, 15, 21),
+        Dropdown = Color3.fromRGB(22, 22, 22),
+        DropdownItem = Color3.fromRGB(18, 18, 18),
+        Textbox = Color3.fromRGB(22, 22, 22),
+        TextboxFrame = Color3.fromRGB(18, 18, 18),
         
         -- Accents and Highlights
-        ItemUIStroke = Color3.fromRGB(0, 255, 255), -- Cyan Border
-        ItemUIStrokeSelected = Color3.fromRGB(255, 0, 128), -- Neon Pink
-        HighlightUIStroke = Color3.fromRGB(0, 255, 166), -- Neon Green
-        Highlight = Color3.fromRGB(255, 0, 128), -- Neon Pink
+        ItemUIStroke = Color3.fromRGB(40, 180, 99), -- Soft Green Border
+        ItemUIStrokeSelected = Color3.fromRGB(46, 204, 113), -- Lighter Green
+        HighlightUIStroke = Color3.fromRGB(40, 180, 99), -- Soft Green Border
+        Highlight = Color3.fromRGB(46, 204, 113), -- Lighter Green
         
         -- Additional Elements
-        ColorPicker = Color3.fromRGB(20, 24, 34),
-        Label = Color3.fromRGB(20, 24, 34),
-        Bind = Color3.fromRGB(20, 24, 34),
-        Shadow = Color3.fromRGB(5, 6, 9), -- Darker Shadow
-        Lines = Color3.fromRGB(0, 255, 255), -- Cyan Lines
+        ColorPicker = Color3.fromRGB(22, 22, 22),
+        Label = Color3.fromRGB(22, 22, 22),
+        Bind = Color3.fromRGB(22, 22, 22),
+        Shadow = Color3.fromRGB(15, 15, 15), -- Darker Shadow
+        Lines = Color3.fromRGB(40, 180, 99), -- Soft Green Lines
         
         -- States
-        HoverTabFrame = Color3.fromRGB(0, 255, 166), -- Neon Green
-        SelectedTabFrame = Color3.fromRGB(255, 0, 128), -- Neon Pink
-        HoverItemFrame = Color3.fromRGB(0, 255, 255), -- Cyan
+        HoverTabFrame = Color3.fromRGB(25, 25, 25), -- Slight Highlight
+        SelectedTabFrame = Color3.fromRGB(40, 180, 99), -- Soft Green
+        HoverItemFrame = Color3.fromRGB(25, 25, 25), -- Slight Highlight
     },
     ["Dark"] = {
         Topbar = Color3.fromRGB(30, 30, 35),
